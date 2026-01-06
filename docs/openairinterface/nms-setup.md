@@ -3,7 +3,7 @@
 This document describes how a **baseline OpenAirInterface (OAI) 5G Standalone deployment** is extended to support **SIB8 emergency alert transmission** and a custom **Network Management System (NMS)**.
 
 > **NOTE**
-> The baseline OAI setup described in [`setup.md`](docs/openairinterface/setup.md) **must be completed first**.
+> The baseline OAI setup described in [`setup.md`](setup.md) **must be completed first**.
 
 ## Overview
 
