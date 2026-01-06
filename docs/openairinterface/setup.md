@@ -3,12 +3,11 @@
 This document describes the **baseline setup** of an OpenAirInterface (OAI) 5G Standalone system.
 
 > **NOTE**
->
-> An alternative setup that integrates the system with a custom **Network Management System (NMS)** is documented separately in:
->
-> - `docs/openairinterface/nms-setup.md`
->
-> The baseline setup presented here is a **prerequisite** for the NMS-based deployment.
+> - The commands below are a **tested version** of the steps described in the official OAI documentation: [OAI NR SA Tutorial for COTS UE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md).
+> - Users are encouraged to explore the official documentation for additional background and advanced configurations.
+>  
+> - An extended setup that integrates a custom **Network Management System (NMS)**, including support for SIB8 emergency alerts, is documented separately in [`nms-setup.md`](docs/openairinterface/nms-setup.md).  
+> This baseline setup is a **prerequisite** for the NMS-based deployment.
 
 ## Requirements
 The minimum requirements to run the system are:
