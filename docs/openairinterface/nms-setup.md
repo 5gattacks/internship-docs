@@ -1,4 +1,4 @@
-# OpenAirInterface – NMS-Based SIB8 Alert Setup
+# OpenAirInterface – NMS and SIB8 Setup
 
 This document describes how a **baseline OpenAirInterface (OAI) 5G Standalone deployment** is extended to support **SIB8 emergency alert transmission** and a custom **Network Management System (NMS)**.
 
