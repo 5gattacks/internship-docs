@@ -60,7 +60,7 @@ sudo apt install minicom
 sudo minicom -D /dev/ttyUSB2 -b 115200
 ```
 
-The following AT commands must be executed to register the module on the 5G Standalone (SA) network, along with the expected responses:
+The following AT commands must be executed to configure the module correctly, along with the expected responses:
 
 ```
 # display module’s identification information
@@ -116,7 +116,7 @@ OK
 
 # display the allocated IP address
 AT+CGPADDR=1
-+CGPADDR: 1,"12.1.1.2"
++CGPADDR: 1,"12.1.1.2" //this would give an empty string for the ip address if we havn't start a PDU session yet (see next steps).
 OK
 
 #IMPORTANT: Configures the module to expose a QMI-based USB networking interface. You can set '2' instead for MBMI, but using MBMI we were not able to successfully start a PDU session and get an IP address, thus we used QMI.
