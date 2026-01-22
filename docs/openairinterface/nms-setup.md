@@ -9,7 +9,7 @@ This document describes how a **baseline OpenAirInterface (OAI) 5G Standalone de
 
 This repository contains the NMS code and a patch file that extend the OAI project to support SIB8 emergency alert transmission.
 
-The implementation is based on OpenAirInterface commit: `92980ceb725a94dbfe97c509d16f1313eee083e0`
+The implementation is based on OpenAirInterface commit: `102965a669b9444857c27843ec8ce62780bf9d37`
 
 The provided patch implements:
 - Construction of SIB8 warning messages in the RRC layer
@@ -40,7 +40,7 @@ cp ~/5g-sib8-alert/assets/configuration/oai-docker-compose.yml ~/oai-cn5g/docker
 Build gNB:
 ```
 cd ~/openairinterface5g
-git checkout 92980ceb725a94dbfe97c509d16f1313eee083e0
+git checkout 102965a669b9444857c27843ec8ce62780bf9d37
 git apply ~/5g-sib8-alert/assets/oai-alert.patch
 
 # Build OAI gNB
@@ -78,7 +78,7 @@ Stop:
 cd ~/5g-sib8-alert/assets/
 ./stop-nms.sh
 ```
-**NOTE:** You should configure the parameters before running the gNB.
+**NOTE:** You should configure the parameters before running the gNB, except for sib8 parameters, as they can be modified at runtime.
 
 #### gNB:
 
