@@ -4,6 +4,7 @@ This document describes the **baseline setup** of an OpenAirInterface (OAI) 5G S
 
 > **NOTE**
 > - The commands below are a **tested version** of the steps described in the official OAI documentation: [OAI NR SA Tutorial for COTS UE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_COTS_UE.md).
+> - Check this page to run the code in the emulated mode: [OAI 5G NR SA tutorial with OAI nrUE](https://gitlab.eurecom.fr/oai/openairinterface5g/-/blob/develop/doc/NR_SA_Tutorial_OAI_nrUE.md#oai-5g-nr-sa-tutorial-with-oai-nrue).
 > - Users are encouraged to explore the official documentation for additional background and advanced configurations.
 >  
 > - An extended setup that integrates a custom **Network Management System (NMS)**, including support for SIB8 emergency alerts, is documented separately in [`nms-setup.md`](nms-setup.md).  
